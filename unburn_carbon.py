@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 
-model = pickle.load(open('unburn_carbon.sav', 'rb'))
+model = pickle.load(open('unburn_carbon2.sav', 'rb'))
 
 st.title('Prediksi Unburn Carbon')
 
@@ -25,12 +25,6 @@ total_moisture = st.number_input('Input total_moisture ( %) ')
 oxygen = st.number_input('Input Oxygen batubara (%) ')
 surface_moisture = st.number_input('input surface_moisturer (%) ')
 inherent_moisture = st.number_input('Input inherent_moisture (%) ')
-
-
-
-
-
-
 
 
 predict = ''
