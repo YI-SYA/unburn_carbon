@@ -22,7 +22,7 @@ nitrogen = st.number_input('Input nitrogen (%) ')
 sulfur = st.number_input('Input Sulfur (%) ')
 ash = st.number_input('Input ash (%) ')
 total_moisture = st.number_input('Input total_moisture ( %) ')
-oxygen = st.number_input('Input SFC (%) ')
+oxygen = st.number_input('Input Oxygen batubara (%) ')
 surface_moisture = st.number_input('input surface_moisturer (%) ')
 inherent_moisture = st.number_input('Input inherent_moisture (%) ')
 
