@@ -2,7 +2,7 @@ import pandas as pd
 import pickle
 import streamlit as st
 
-model = pickle.load(open('unburn_model.pkl', 'rb'))
+model = pickle.load(open('unburn_model2.pkl', 'rb'))
 
 st.title('Prediksi Unburn Carbon')
 
