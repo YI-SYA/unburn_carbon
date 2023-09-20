@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 
-model = pickle.load(open('unburn_carbon4.sav', 'rb'))
+model = pickle.load(open('unburn_mdoel.pkl', 'rb'))
 
 st.title('Prediksi Unburn Carbon')
 
